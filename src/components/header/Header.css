@@ -1,0 +1,94 @@
+.header{
+    width:100vw;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background:#FFFFFF ;
+    padding:0 30px;
+    height: 53px;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2) ;
+
+}
+.header_container{
+    flex:1;
+    max-width: 1067px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__left{
+    flex:0.3;
+    display: flex;
+    align-items: center;
+}
+.search_bar {
+    position: relative;  
+    border-radius: 0.4rm;
+    margin-left: 0.5rem;
+}
+.search_bar > input{
+    position: relative;
+    background-color: #EEF3F8;
+    height:34px;
+    border: none;
+    width: 280px;
+    padding:0 .8rem 0 40px;
+    transition: all 1s ease;
+
+}
+.search_bar > input:focus{
+    width: 320px;
+}
+.search_bar > .MuiSvgIcon-root{
+    position: absolute;
+    top: .4rem;
+    left: .5rem;
+    color:rgba(0,0,0,.6);
+    
+}
+
+.logo > img{
+    width: 41px;
+    height: 41px;
+}
+
+.navbarlink{
+    height: 53px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:rgba(0,0,0,0.6);
+    margin: 0 1rem;
+}
+.header__right_links >  .active{
+    border-bottom: 3px solid black;
+}
+.header__right_links{
+    display: flex;
+    height: 100%;
+
+}
+.header__right{
+    flex:0.7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header__right > .user_avatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0,0,0,.6);
+}
+.header__right > .user_avatar  span > .MuiSvgIcon-root{
+    font-size: 12px;
+    color: rgba(0,0,0,.6);
+}
+.header__right > .user_avatar > .MuiAvatar-root{
+    width: 2rem;
+    height: 2rem;
+}

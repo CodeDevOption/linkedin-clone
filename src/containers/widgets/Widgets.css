@@ -1,0 +1,107 @@
+.widgets{
+    width: 280px;
+}
+.widgets__top{
+    border:1px solid #E0DFDC;
+    border-radius: .7rem;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    padding:12px;
+
+}
+ /* Peoples Components */
+.item {
+    margin: 12px 0;
+    display: flex;
+    gap:1rem;
+    color:#000000E6;
+}
+.item > .user__info h3{
+    font-size: 14px;
+    font-weight: 600;
+    color:#000000E6;
+}
+.item > .user__info p{
+font-size: 12px;
+}
+.item > .user__info button:hover{
+    background-color: #EBEBEB;
+    border: 2px solid #5E5E5E;
+    padding:6px 16px;
+    cursor: pointer;
+}
+.item > .user__info button{
+    display: flex;
+    background-color: transparent;
+    border:1px solid #00000099;
+    border-radius: 3rem;
+    color:#00000099;
+    padding:7px 17px;
+    font-size: 16px;
+    margin-top: .5rem;
+}
+.item > .user__info button > .MuiSvgIcon-root , p{
+    font-size: 16px;
+}
+/* Top Widgets */
+.widgets__top_header{
+display:flex;
+justify-content: space-between;
+align-items: center;
+color:#000000E6;
+}
+.widgets__top_header > h3{
+    font-size: 16px;
+     
+}
+.widgets__top_header > .MuiSvgIcon-root{
+    font-size: 1rem;
+}
+.widgets__top > a {
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    font-size: 14px;
+}
+.widgets__top > a > .MuiSvgIcon-root{
+    font-size: 14px;
+}
+.widgets__bottom{
+    padding: 12px;
+    position: sticky;
+    top:5rem;
+}
+.widgets__bottom >  div:first-child{
+    height: 1px;
+    width: 100%;
+    border :.1em solid #BFBEBB;
+    margin-bottom: 1rem;
+}
+.widgets__bottom > .about {
+    font-size: 12px;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color:#5E5E5E;
+
+}
+.widgets__bottom > .about > a {
+    color:#5E5E5E;
+}
+.widgets__bottom > .about > a:hover{
+    color:#0A66C2;
+    text-decoration: underline;
+}
+.widgets__bottom > .about > a >  .MuiSvgIcon-root{
+    font-size: 12px;
+}
+.about > div {
+    display: flex;
+    align-items: center;
+}
+.about > div img{
+    width:4rem;
+    height: auto;
+}

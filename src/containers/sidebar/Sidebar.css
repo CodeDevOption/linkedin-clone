@@ -1,0 +1,147 @@
+.sidebar{
+    width: 255px;
+}
+.sidebar__top{
+  
+    border:1px solid #E0DFDC;
+    border-radius: .7rem;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+.profile__cover{
+    width:100%;
+    height: 65px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: -49px;
+    background-image: url('https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2021/03/LinkedIn-Default-Background-2020-.jpg');
+}
+.profile_ditalis{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:.2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #E0DFDC; ;
+}
+.profile_ditalis > div{
+    font-weight:600;
+    font-size: 16px;
+    color:#000000E6;
+} 
+.profile_ditalis > div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.profile_ditalis > p{
+    font-size: 12px;
+} 
+.profile__img{
+    display: flex;
+    justify-content: center;
+}
+.profile__img > .MuiAvatar-root{
+    width:6rem;
+    height: 6rem;
+  
+}
+.connections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding:  4px 12px;
+    border-bottom: 1px solid #E0DFDC; 
+}
+.connections:hover{
+    background-color: #EBEBEB;
+    cursor: pointer;
+}
+.sidebar__top > div:last-child:hover{
+    background-color: #EBEBEB;
+    cursor: pointer;
+}
+.connections > .left{
+    display: flex;
+    flex-direction: column;
+}
+.connections > .MuiSvgIcon-root{
+    color:rgba(0,0,0,0.6);
+}
+.connections > .left span:first-child {
+    color:#00000099;
+}
+.connections > .left span:nth-child(2) {
+    color:#000000E6;
+    font-weight: 500;
+}
+.sidebar__top > a > span {
+    color:#000000E6;
+    font-size: 12px;
+    
+}
+.sidebar__top > div > a >  .MuiSvgIcon-root{
+    font-size: 20px;
+    color: rgba(0,0,0,0.6);;
+}
+.sidebar__top div > a {
+width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding:12px;
+}
+.sidebar__bottom{
+    margin-top: 1rem;
+    position:sticky;
+    top:5rem;
+    border:1px solid #E0DFDC;
+    border-radius: .7rem;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.sidebar__bottom > a{
+    display: block;
+    font-size: 14px;
+    padding:12px;
+    text-align: center;
+
+}
+.sidebar__bottom > a:hover{
+    background-color: #EBEBEB;
+    cursor: pointer;
+}
+.sidebar__bottom > .community a:hover{
+   text-decoration: underline;
+}
+
+
+.community{
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap:.4rem;
+    padding-bottom: .5rem ;
+    border-bottom: 1px solid #E0DFDC; ;
+}
+.community > div{
+    display: flex;
+    justify-content:space-between;
+    padding: 0 12px;
+   
+    
+}
+.community > div > a {
+    flex: 1;
+    margin-right: .5rem;
+    color:#0A66C2;
+    font-weight: 600;
+}
+
+.community >  a{
+    padding: 0 12px;
+    color:#0A66C2;
+    font-weight: 600;
+}

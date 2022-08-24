@@ -1,0 +1,216 @@
+.feed{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+
+/* post__create */
+
+.post__create{
+    border:1px solid #E0DFDC;
+    border-radius: .7rem;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+.post__create_top{
+    display:flex;
+    padding: 8px 16px 0 16px
+    
+}
+.post__create_top > .MuiAvatar-root{
+    width:40px;
+    height: 40px;
+    margin-right: 8px;
+}
+.post__create_top > button{
+    flex:1;
+    text-align: left;
+    background: transparent;
+    border-radius: 3rem;
+    outline: none;
+    border:1px solid #A4A4A4;
+    padding:10px 8px 10px 16px;
+}
+
+.post__create_top > button:hover{
+
+    background-color:#EBEBEB;
+    cursor:pointer;
+}
+.post__create_top > button span{
+    
+    font-size: 14px;
+    font-weight: 600;
+    color:#00000099;
+}
+/* post__create_bottom */
+
+.post__create_bottom{
+    margin: .3rem;
+    display: flex;
+    height: 52px;
+    justify-content: space-around;
+}
+.create_items{
+    display: flex;
+    align-items: center;
+    border-radius: 0.2rem;
+    gap:0.5rem;
+    padding: 0 .3rem;
+}
+.create_items:hover{
+    background-color: #EBEBEB;
+}
+
+/* shortbtn */
+.shortbtn{
+    border: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.shortbtn > span{
+    flex:1;
+    height: 1px;
+    background-color: #BFBEBB;
+}
+.shortbtn > p{
+    display: flex;
+    margin-left: .5rem;
+}
+.shortbtn > p > strong{
+    font-size: 12px;
+    color:#000000E6;
+    font-weight:bold;
+}
+
+/* Create Post  */
+
+.post_creator{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.post_creator  > .post_creator_header {
+    display: flex;
+
+    padding-bottom:12px ;
+}
+.post_creator  > .post_creator_header > .user{
+    padding: 0 0 0 4px;
+}
+.post_creator  > .post_creator_header > .user > h1  {
+    font-size: 16px;
+    color:#000000E6;
+    font-weight: 600;
+}
+.post_creator  > .post_creator_header > .user > button h3  {
+font-size: 14px;
+}
+.post_creator  > .post_creator_header > .user > button .MuiSvgIcon-root  {
+    font-size: 14px;
+}
+.post_creator  > .post_creator_header > .user > button:hover  {
+    background:#00000014;
+    border: 2px solid #00000099 ;
+    padding: 4px 11px ;
+}
+.post_creator  > .post_creator_header > .user > button  {
+display: flex;
+align-items: center;
+gap:.4rem;
+background: none;
+color:#00000099;
+border: 1px solid #00000099;
+border-radius: 3rem;
+cursor: pointer;
+padding: 5px 12px;
+}
+.post_creator  > .post_creator_header .MuiAvatar-root{
+    width:48px;
+    height: 48px;
+}
+.post_creator > textarea{
+    width:100%;
+    height: 96px;
+    color:#000000E6;
+    font-size: 16px;
+    border:none;
+    resize: none;
+    outline:none;
+
+}
+.post_creator > .hashtag:hover{
+    background-color: #E2F0FE;
+}
+.post_creator > .hashtag{
+color:#0a66c2;
+font-weight: bold;
+border:none;
+outline:none;
+font-size: 16px;
+padding: 6px 8px;
+border-radius: 5px;
+cursor:pointer;
+background: none;
+margin: 12px 0;
+}
+.categorys{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.categorys > .left{
+    display: flex;
+    gap:1rem;
+    color:#5E5E5E;
+}
+.categorys > .midle button{
+    display: flex;
+align-items: center;
+gap:.4rem;
+color:#00000099;
+border: none;
+background:none ;
+border-radius: 3rem;
+padding: 5px 12px;
+cursor: pointer;
+}
+.categorys > .midle button:hover {
+    background-color: #00000014;
+}
+.categorys > .midle > button h3  {
+    font-size: 14px;
+    }
+.categorys > .midle > button .MuiSvgIcon-root  {
+    font-size: 14px;
+}
+.categorys > .right > button{
+    font-weight: bold;
+    background-color: #0a66c2;
+    padding:6px 16px;
+    font-size: 16px;
+    color:white;
+    border:none;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+.categorys > .right > button:disabled{
+    cursor:no-drop;
+    background-color: #EBEBEB;
+    color:#00000050;
+}
+.dialog-title > h3{
+    font-size: 20px;
+    color:#000000E6;
+    font-weight: 400;
+}
+.css-tlc64q-MuiPaper-root-MuiDialog-paper{
+    border-radius: .8rem !important;
+   
+}

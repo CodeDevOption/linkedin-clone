@@ -1,0 +1,92 @@
+.post{
+    display: flex;
+    flex-direction: column  ;
+    border:1px solid #E0DFDC;
+    border-radius: .7rem;
+    background-color: #FFFFFF;
+    overflow: hidden;
+
+}
+
+/* post__header */
+.post__header{
+    display: flex;
+    padding:12px;
+
+   
+
+}
+.post__header .user__info{
+    display: flex;
+    flex:1;
+    font-size: 12px;
+}
+.post__info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.post__info > p {
+    display: flex;
+    align-items: center;
+}
+.post__info > p >  .MuiSvgIcon-root{
+    font-size: .9rem;
+}
+.post__info  h3{
+    font-size: 14px;
+    font-weight: 600;
+    color:#000000E6;
+}
+
+.post__content img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* Footer */
+
+.social__ditails{
+    display: flex;
+    font-size: 12px;
+    margin:0 16px;
+    padding: 8px 0;
+    gap:1rem;
+    border-bottom: 1px solid #E0DFDC; 
+}
+.social__ditails > .likes{
+    flex:1;
+    display: flex;
+    gap:.5rem;
+}
+.social__ditails > .likes > .icon__group >img:nth-child(1),
+.social__ditails > .likes > .icon__group >img:nth-child(2),
+.social__ditails > .likes > .icon__group >img:nth-child(3){
+margin-right: -5px;
+border:1px solid #ffff;
+border-radius: 50%;
+}
+.post__title{
+    padding:12px;
+    font-size: 14px;
+}
+.social__action{
+display:flex;
+justify-content: space-around;
+padding: 12px;
+}
+.social__action > button{
+    padding:10px 15px;
+    border-radius: .3rem;
+    background: transparent;
+    border:none;
+    display: flex;
+    align-items: center;
+    gap:.5rem;
+    color:#5E5E5E;
+    cursor: pointer;
+}
+.social__action > button:hover{
+    background-color: #EBEBEB;
+}
